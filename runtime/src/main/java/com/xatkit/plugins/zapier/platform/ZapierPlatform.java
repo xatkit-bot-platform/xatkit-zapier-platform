@@ -2,6 +2,7 @@ package com.xatkit.plugins.zapier.platform;
 
 import com.xatkit.core.XatkitCore;
 import com.xatkit.core.platform.RuntimePlatform;
+import com.xatkit.core.server.RestHandlerFactory;
 import fr.inria.atlanmod.commons.log.Log;
 import org.apache.commons.configuration2.Configuration;
 
@@ -47,7 +48,7 @@ public class ZapierPlatform extends RuntimePlatform {
     public ZapierPlatform(XatkitCore xatkitCore, Configuration configuration) {
         super(xatkitCore, configuration);
         this.xatkitCore.getXatkitServer().registerRestEndpoint("/zapier/callback",
-                ((headers, params, content) -> {
+                RestHandlerFactory.createJsonRestHandler((headers, params, content) -> {
                     String actionId = content.getAsJsonObject().get(ACTION_ID_FIELD).getAsString();
                     String value = content.getAsJsonObject().get(VALUE_FIELD).getAsString();
                     this.callbackValues.put(actionId, value);
