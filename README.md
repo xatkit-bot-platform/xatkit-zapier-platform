@@ -2,6 +2,7 @@ Xatkit Zapier Platform
 =====
 
 [![License Badge](https://img.shields.io/badge/license-EPL%202.0-brightgreen.svg)](https://opensource.org/licenses/EPL-2.0)
+[![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit-releases/wiki/Xatkit-Zapier-Platform)
 
 Triggers Zapier worflows (zaps) and receive callbacks from Zapier. This platform is **not** bundled with the [Xatkit release](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
 
