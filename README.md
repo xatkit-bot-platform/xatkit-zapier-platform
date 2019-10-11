@@ -5,7 +5,7 @@ Xatkit Zapier Platform
 [![Build Status](https://travis-ci.com/xatkit-bot-platform/xatkit-zapier-platform.svg?branch=master)](https://travis-ci.com/xatkit-bot-platform/xatkit-zapier-platform)
 [![Wiki Badge](https://img.shields.io/badge/doc-wiki-blue)](https://github.com/xatkit-bot-platform/xatkit-releases/wiki/Xatkit-Zapier-Platform)
 
-Triggers Zapier worflows (zaps) and receive callbacks from Zapier. This platform is **not** bundled with the [Xatkit release](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
+Triggers Zapier worflows (zaps) and receive callbacks from Zapier. This platform is bundled with the [Xatkit release](https://github.com/xatkit-bot-platform/xatkit-releases/releases).
 
 ## Providers
 
