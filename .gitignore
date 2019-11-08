@@ -33,9 +33,6 @@ target
 # Eclipse
 .settings
 
-# Eclipse
-.settings
-
 # xatkit data
 **/data
 
@@ -48,3 +45,5 @@ key.json
 
 # Bin scripts
 bin
+
+platform/*.xmi

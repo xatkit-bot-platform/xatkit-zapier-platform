@@ -9,9 +9,6 @@
     </formats>
     <files>
         <file>
-            <source>ZapierPlatform.xmi</source>
-        </file>
-        <file>
             <source>ZapierPlatform.platform</source>
         </file>
     </files>
